@@ -9,10 +9,10 @@ public class Main {
 
         System.out.println(miles + " miles = " + kilometers + " kilometers");
 
-        double kilometers2 = 10;
-        double miles2 = convertKilometersToMiles(kilometers2);
+        double kilometersResult = 10;
+        double milesResult = convertKilometersToMiles(kilometersResult);
 
-        System.out.println(kilometers2 + " kilometers = " + miles2 + " miles");
+        System.out.println(kilometersResult + " kilometers = " + milesResult + " miles");
     }
 
     private static double convertMilesToKilometers(double miles) {
